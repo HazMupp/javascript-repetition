@@ -102,7 +102,7 @@ var favoriteGames = [["Super Mario bros 1", "Duck hunt"], ["Wii sports", "zelda"
 console.log("Andra spelet i första listan " + favoriteGames[0][1]);
 
 // Array i objekt
-var superMario64 = {title; "Super mario 64", countries: ["Sverige", "USA"], characters: ["Mario", "Toad", "Peach"]};
+var superMario64 = {title: "Super mario 64", countries: ["Sverige", "USA"], characters: ["Mario", "Toad", "Peach"]};
 // Hämta första karaktären
 console.log("Första karaktären är " + superMario64.characters[0]);
 console.log("Andra landet är " + superMario64["countries"][1]);
@@ -112,10 +112,3 @@ var club = {name: "PSG", playedInChampionsLeague: true, founded: "2013"
 var soccerPlayer = {name: "Zlatan", originalClub: {name: "Malmö FF", playedInChampionsLeague: true, founded: 1901}, currentclub: club};
 console.log("Året då Zlatans originalklubb startades " + soccerPlayer.originalClub.founded);
 console.log("Zlatans originalklubb heter " + soccerPlayer["originalClub"]["founded"]);
-
-
-
-
-
-
-
