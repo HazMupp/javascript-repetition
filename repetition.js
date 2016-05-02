@@ -109,6 +109,6 @@ console.log("Andra landet är " + superMario64["countries"][1]);
 
 // Objekt i objekt
 var club = {name: "PSG", playedInChampionsLeague: true, founded: "2013"
-var soccerPlayer = {name: "Zlatan", originalClub: {name: "Malmö FF", playedInChampionsLeague: true, founded:1901} currentclub: club};
+var soccerPlayer = {name: "Zlatan", originalClub: {name: "Malmö FF", playedInChampionsLeague: true, founded:1901}, currentclub: club};
 console.log("Året då Zlatans originalklubb startades " + soccerPlayer.originalClub.founded);
 console.log("Zlatans originalklubb heter " + soccerPlayer["originalClub"]["founded"]);
